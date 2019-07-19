@@ -1,0 +1,11 @@
+[Unit]
+Description=MintyPi Service
+
+[Service]
+Type=simple
+Restart=always
+User=root
+ExecStart=/home/pi/mintyPi/minty-startup.sh
+
+[Install]
+WantedBy=multi-user.target

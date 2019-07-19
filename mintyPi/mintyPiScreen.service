@@ -1,0 +1,11 @@
+[Unit]
+Description=mintyPi Screen Service
+
+[Service]
+Type=simple
+Restart=always
+User=root
+ExecStart=/usr/bin/mintyPiScreen
+
+[Install]
+WantedBy=multi-user.target
