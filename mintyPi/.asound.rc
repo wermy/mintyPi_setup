@@ -20,13 +20,6 @@ ctl.dmixer {
     type hw card 0
 }
  
-pcm.softvol {
-    type softvol
-    slave.pcm "dmixer"
-    control.name "PCM"
-    control.card 0
-}
- 
 ctl.softvol {
     type hw card 0
 }
