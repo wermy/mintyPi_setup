@@ -78,7 +78,7 @@ sudo apt-get install -y rfkill
 echo "Done!"
 read -p "Press enter to continue"
 
-sudo sh ./copy-files.sh
+sudo sh ./copy_files.sh
 
 echo "Disabling wait for network on boot..."
 rm -f /etc/systemd/system/dhcpcd.service.d/wait.conf
